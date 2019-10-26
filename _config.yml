@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   在单行线上行走的程序猿.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: 
+github_username:  Alpha11111
 show_excerpts: true #显示摘要
 # Build settings
 theme: minima
@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
 
 permalink: /:title/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

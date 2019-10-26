@@ -1,5 +1,4 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper" style="display: none">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -28,7 +27,9 @@
     {%- endif -%}
   </div>
 
-  <ul class="layui-nav" lay-filter="">
+<div style="width: 100%">
+  <iframe class="baniframe" sandbox="allow-scripts allow-same-origin" id="mh" src="canvas.html"></iframe>
+  <ul class="layui-nav" style="" lay-filter="">
   <img src="{{"/images/head.jpg" | relative_url}}" with=50 height=50 style="border-radius: 50%;">
   <li class="layui-nav-item"><a href="{{"/" | relative_url}}">首页</a></li>
   <li class="layui-nav-item"><a href="">产品</a></li>
@@ -43,7 +44,7 @@
   </li>
   <li class="layui-nav-item"><a href="">社区</a></li>
 </ul>
- 
+
 <script>
 //注意：导航 依赖 element 模块，否则无法进行功能性操作
 layui.use('element', function(){
@@ -52,4 +53,7 @@ layui.use('element', function(){
   //…
 });
 </script>
+
+
+
 </header>
