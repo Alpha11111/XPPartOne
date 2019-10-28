@@ -18,7 +18,7 @@ body {margin:0 auto;overflow:hidden;}
 .header .canvaszz{  /*用来解决视频右键菜单，用于视频上面的遮罩层*/
 	width:100%;
 	background-image: url(img/in_top_bj.jpg);
-	height:640px;
+	height:200px;
 	position:absolute;
 	z-index:10;
 		filter:alpha(opacity=40);  

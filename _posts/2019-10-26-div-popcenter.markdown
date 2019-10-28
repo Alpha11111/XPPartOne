@@ -13,8 +13,6 @@ image: /images/feature/first-ft.png
     }
     .pop{
     	position:relative; 
-    	/*top:20%;*/
-    	/*left:50%;*/ 
     	width:90%;
     	height:100%; 
     	margin-top: 10%;

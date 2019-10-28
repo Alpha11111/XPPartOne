@@ -9,15 +9,13 @@ body{backgroud:efefef}
 
 .layui-nav{
 	text-align:center;
-	position: absolute;
-	top: 50px;    
+	position: absolute;   
 	background-color: #8c8f9800;
 	color: #fff;
 	left: 50%;
-    top: 50%;
+    top: 35%;
     transform: translateX(-50%);
     transform: translateY(50%px);
-
 }
 .post-list > li{
 	border: 1px solid #b9acac;
@@ -28,4 +26,18 @@ body{backgroud:efefef}
     width: 100%;
     height: 100%;
     border-width: 0px;
+}
+
+@media (max-width:980px){
+	.layui-nav{   
+		background-color: #8c8f9800;
+		color: #fff;
+		left: 0%;
+	    top: 30%;
+	    transform: translateX(0%);
+	    transform: translateY(0%);
+	}
+	.layui-nav .layui-nav-item a {
+	    padding: 0 10px;
+	}
 }
