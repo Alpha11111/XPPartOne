@@ -21,11 +21,11 @@
 title: '百万伏特'
 email: xiongpeng1313113@126.com
 description: >- # this means to ignore newlines until "baseurl:"
-  在单行线上行走的程序猿.
+  编码艺术.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username:  Alpha11111
+github_username:
 show_excerpts: true #显示摘要
 # Build settings
 theme: minima
@@ -33,6 +33,10 @@ plugins:
   - jekyll-feed
 
 permalink: /:title/
+
+#开启分页功能
+paginate: 1
+paginate_path: "page:num"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
