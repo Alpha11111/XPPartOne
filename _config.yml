@@ -31,12 +31,7 @@ show_excerpts: true #显示摘要
 theme: minima
 plugins:
   - jekyll-feed
-
 permalink: /:title/
-
-#开启分页功能
-paginate: 1
-paginate_path: "page:num"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
