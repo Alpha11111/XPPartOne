@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Integrating Google Analytics with Cookie Consent"
+title: Integrating Google Analytics with Cookie Consent
 excerpt: 'Google GDPR for Shopify'
 date: 2025-02-10
 image: /images/google-gdpr.png
