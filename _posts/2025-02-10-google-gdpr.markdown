@@ -8,13 +8,9 @@ permalink: /goolge-gdpr/
 
 <h2>谷歌意见征求模式-独立站完整代码</h2>
 
-This article explains how to integrate Google Analytics with Cookie Consent mode on a website using JavaScript and HTML.
-
-<h4> Google Analytics Setup</h4>
-
-First, you need to load the Google Analytics tracking script. Below is the script required for integrating Google Analytics with Consent Mode:
-
-```html
+<h4> Google Analytics 设置</h4>
+<pre>
+<xmp>
 <!-- Google Analytics (gtag.js) with Consent Mode -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></script>
 <script>
@@ -30,6 +26,10 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 gtag('config', 'G-XXXXXX', { anonymize_ip: true });
 </script>
+</pre>
+</xmp>
+
+<h4> css设置</h4>
 <style>
 #cookie-banner {
   position: fixed;
@@ -68,13 +68,24 @@ gtag('config', 'G-XXXXXX', { anonymize_ip: true });
   font-size: 14px;
 }
 </style>
+</pre>
+</xmp>
 
+<h4> 意见征求内容</h4>
+<pre>
+<xmp>
 <!-- Cookie Consent Banner -->
 <div id="cookie-banner" style="display:none">
   <p style="margin: 0; color: #333;">We use cookies to enhance your experience. Do you consent?</p>
   <button class="btn-yes" onclick="acceptCookies()">Accept</button>
   <button class="btn-no" onclick="rejectCookies()">Deny</button>
 </div>
+</pre>
+</xmp>
+
+<h4> 获取用户授权</h4>
+<pre>
+<xmp>
 <script>
 function setCookie(name, value, days) {
   let expires = "";
@@ -128,3 +139,5 @@ function rejectCookies() {
 
 window.onload = showCookieBanner; // Check location on page load
 </script>
+</pre>
+</xmp>
