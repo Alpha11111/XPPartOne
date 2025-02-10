@@ -1,6 +1,8 @@
 ---
+layout: default
 title: "Integrating Google Analytics with Cookie Consent"
 date: 2025-02-10
+permalink: /Goolge-GDPR/
 ---
 
 # Integrating Google Analytics with Cookie Consent
