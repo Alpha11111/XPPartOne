@@ -6,11 +6,11 @@ date: 2025-02-10
 permalink: /goolge-gdpr/
 ---
 
-# Integrating Google Analytics with Cookie Consent
+<h2> Integrating Google Analytics with Cookie Consent</h2>
 
 This article explains how to integrate Google Analytics with Cookie Consent mode on a website using JavaScript and HTML.
 
-## Google Analytics Setup
+<h4> Google Analytics Setup</h4>
 
 First, you need to load the Google Analytics tracking script. Below is the script required for integrating Google Analytics with Consent Mode:
 
