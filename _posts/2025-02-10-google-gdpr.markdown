@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Integrating Google Analytics with Cookie Consent"
-excerpt: 'Google GDPR for Shopify'
+title: "谷歌意见征求模式-独立站完整代码"
+excerpt: '本文介绍了如何在网站上集成 Google Analytics 跟踪代码，并实现 Cookie 同意模式。通过该模式，网站可以遵守隐私法规（如 GDPR），在用户同意后才启用追踪功能。本文提供了相关的 JavaScript 和 HTML 代码，包括 Cookie 同意横幅的实现，允许用户选择接受或拒绝 cookies，从而控制个人数据的使用。'
 date: 2025-02-10
 permalink: /goolge-gdpr/
 ---
