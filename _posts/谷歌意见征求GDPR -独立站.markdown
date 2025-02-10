@@ -13,7 +13,7 @@ First, you need to load the Google Analytics tracking script. Below is the scrip
 
 ```html
 <!-- Google Analytics (gtag.js) with Consent Mode -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LYTPCR67SM"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -25,7 +25,7 @@ gtag('consent', 'default', {
 });
 // Initialize Google Analytics configuration
 gtag('js', new Date());
-gtag('config', 'G-LYTPCR67SM', { anonymize_ip: true });
+gtag('config', 'G-XXXXXX', { anonymize_ip: true });
 </script>
 <style>
 #cookie-banner {
